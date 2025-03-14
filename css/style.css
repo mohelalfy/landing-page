@@ -64,3 +64,33 @@ body {
     border-radius: 10px;
     margin: 20px;
 }
+
+/* Most sold section */
+
+.most-sold {
+    text-align: center;
+}
+
+.most-sold h2 {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.most-sold .items {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 40px;
+}
+
+.items div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.1em;
+    background-color: #eef0f3;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1;
+}
