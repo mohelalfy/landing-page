@@ -78,7 +78,7 @@ body {
 
 .most-sold .items {
     display: flex;
-    align-items: baseline;
+    align-items: stretch;
     justify-content: center;
     gap: 40px;
 }
