@@ -21,7 +21,7 @@ body {
 
 /* Header */
 
-.page-header {
+.page-header, .page-footer {
     background-color: #1f2937;
     padding: 5px;
 }
@@ -146,4 +146,14 @@ body {
 .call-action-title {
     font-size: 1.3em;
     font-weight: bold;
+}
+
+/* Footer */
+
+.page-footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.1em;
 }
