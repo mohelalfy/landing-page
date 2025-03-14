@@ -119,3 +119,31 @@ body {
     font-size: 25px;
     font-weight: bold;
 }
+
+/* Call action section */
+
+.call-action {
+    padding: 30px;
+    width: 70%;
+    margin: 30px auto 0 auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+.call-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-action button {
+    border-color: white;
+}
+
+.call-action-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
